@@ -1,0 +1,18 @@
+.container{
+    margin: 30px 10% 0px 15%;
+    width: 70%;
+    height: 100vh;
+    background-color: red;
+    display: flex;
+}
+.menu-container{
+    width: 25%;
+    background-color: blue;
+    height: 100vh;
+}
+.product-container{
+    width: 75%;
+    background-color: brown;
+    height: 100vh;
+    
+}

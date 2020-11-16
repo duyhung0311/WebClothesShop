@@ -2,17 +2,100 @@
     margin: 30px 10% 0px 15%;
     width: 70%;
     height: 100vh;
-    background-color: red;
     display: flex;
 }
 .menu-container{
     width: 25%;
-    background-color: blue;
     height: 100vh;
+}
+.menu-container .title {
+    width: 100%;
+    height: auto;
+    font-family: 'Acme', sans-serif;
+    font-size: 30px;
+    color:burlywood;
+    border-bottom: 2px solid ;
+    padding-left: 20px;
+}
+.menu-container .item p{
+    margin-top: 25px;
+    color: black;
+    font-size: 20px;
+    text-align: start;
+    margin-left: 20px;
+    font-family: 'Ramabhadra', sans-serif;
 }
 .product-container{
     width: 75%;
-    background-color: brown;
     height: 100vh;
     
+}
+.product-container .banner-product{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: auto;
+}
+.banner-product img{
+    width: 100%;
+    height: auto;
+    padding-bottom: 25px;
+}
+.product-inline{
+    width: 90%;
+    height: 400px;
+    /* align-items:center; */
+    /* justify-content: center; */
+   
+}
+
+
+.product-inline .image-product{
+    width: 100%;
+    height: 60%;
+    
+    
+}
+
+.image-product img {
+    width: 100%;
+    height: auto;
+}
+.product-inline .content-product{
+    widows: 100%;
+    height: 35%;
+    
+}
+.product-inline .content-product .detailed-content{
+    width: 100%;
+    height: 40%;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color:black;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.product-inline .content-product .price-product{
+    width: 100%;
+    height: 30%;
+    font-family: 'Istok Web', sans-serif;;
+    color:chocolate;
+    font-size: 22px;
+    text-align: center;
+}
+.product-inline .content-product .outline-button{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.product-inline .content-product .buying-rightnow{
+    width: 80%;
+    height: auto;
+    border: 2px solid chocolate;
+    color: chocolate ;
+    background-color: white;
+    font-family: 'Josefin Sans', sans-serif;
 }

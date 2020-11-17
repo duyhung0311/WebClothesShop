@@ -6,6 +6,6 @@ export const Images={
     SLIDER_3:IMAGE_URL +"/static/img/slider_3.jpg",
     SLIDER_4:IMAGE_URL +"/static/img/slider_4.jpg",
     PRODUCT_1:IMAGE_URL+"/static/img/product.jpg",
-    
+    SINGLEPRODUCT_1:IMAGE_URL+"/static/img/single.jpg",
     BANNER:IMAGE_URL+"/static/img/banner.jpg",
 };

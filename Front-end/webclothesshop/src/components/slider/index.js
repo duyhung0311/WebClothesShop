@@ -16,7 +16,7 @@ function slider() {
     
     return (
         <div>
-            <Carousel autoplay>
+            <Carousel  autoplay>
             {/* style={{backgrou}ndImage:`url(${Images.LOGIN})`}} */}
                 <div>
                     <img style={contentStyle}src={Images.SLIDER_1}></img>

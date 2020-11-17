@@ -8,4 +8,8 @@ export const Images={
     PRODUCT_1:IMAGE_URL+"/static/img/product.jpg",
     SINGLEPRODUCT_1:IMAGE_URL+"/static/img/single.jpg",
     BANNER:IMAGE_URL+"/static/img/banner.jpg",
+    AVATAR_1:IMAGE_URL +"/static/img/avatar_1.jpg",
+    AVATAR_2:IMAGE_URL +"/static/img/avatar_2.jpg",
+    AVATAR_3:IMAGE_URL +"/static/img/avatar_3.jpg",
+    AVATAR_4:IMAGE_URL +"/static/img/avatar_4.jpg",
 };

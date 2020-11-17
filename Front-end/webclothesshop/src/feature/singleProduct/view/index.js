@@ -2,12 +2,19 @@ import React from 'react'
 import  './style.css'
 import Navbar from '../../../components/navbar'
 import { Images } from '../../../config/image'
-import {Select,Button,Collapse} from 'antd'
-import { HeartOutlined  } from '@ant-design/icons';
+import {Select,Button,Collapse,Tabs,Input,Form,Checkbox,Comment,Avatar,Empty,Rate} from 'antd'
+import { HeartOutlined,StarFilled,QuestionOutlined,MessageTwoTone,ClockCircleOutlined ,CloseCircleFilled    } from '@ant-design/icons';
 
 function SingleProduct() {
     const { Panel } = Collapse;
-
+    const { TabPane } = Tabs;
+    const renderTabBar = (props, DefaultTabBar) => (
+        <Sticky bottomOffset={80}>
+          {({ style }) => (
+            <DefaultTabBar {...props} className="site-custom-tab-bar" style={{ ...style }} />
+          )}
+        </Sticky>
+      );
     return (
         <>
                         <Navbar/>
@@ -16,6 +23,166 @@ function SingleProduct() {
             <div className="left-side">
                 <div >
                     <img className="image" src={Images.SINGLEPRODUCT_1}/>
+                </div>
+                <div className="left-bottom-side">
+                    
+                    <Tabs defaultActiveKey="2">
+                        <TabPane
+                            tab={
+
+                                    <span className="review">
+                                    <StarFilled/>
+                                    Review
+                                    </span>
+                                }
+                            key="1"
+                        >
+                        
+                        </TabPane>
+
+                        <TabPane
+                            tab={
+                                    <span className="question">
+                                    <QuestionOutlined/>
+                                    Question
+                                    </span>
+                            }
+                        key="2"
+                        >
+                        <div className="sum-question">
+                        <div className="all-question">All question</div>
+                                <Tabs defaultActiveKey="3">
+                                    <TabPane
+                                        tab={
+
+                                                <span className="recent-answer">
+                                                <ClockCircleOutlined/>
+                                                Recent Answer
+                                                </span>
+                                            }
+                                        key="1"
+                                    > 
+                                        <Comment 
+                                            author={<div className="comment-author">Viet Quoc Pham</div>}
+                                            avatar={<Avatar 
+                                                    src={Images.AVATAR_1}
+                                            />}
+                                            content={
+                                                <div className="comment-content">
+                                                    Shop bán đồ như con cu vậy đó!!!Mua lần 1 đéo có lần 2
+                                                </div>
+                                            }
+                                        />
+                                        <Comment 
+                                            author={<div className="comment-author">Nguyen Huynh</div>}
+                                            avatar={<Avatar 
+                                                    src={Images.AVATAR_2}
+                                                   
+                                            />}
+                                            
+                                            content={
+                                               
+                                                <div className="comment-content">
+                                                    Shop bán đồ oke phết!!!
+                                                </div>
+                                            }
+                                        />
+
+                                       
+                                        
+                                    </TabPane>
+                                    <TabPane
+                                        tab={
+
+                                                <span className="popular-answer">
+                                                <StarFilled/>
+                                                Popular Answer
+                                                </span>
+                                            }
+                                        key="2"
+                                    >
+                                        <Comment 
+                                            author={<div className="comment-author">Thuy Trang</div>}
+                                            avatar={<Avatar 
+                                                    src={Images.AVATAR_3}
+                                            />}
+                                            content={
+                                                <div className="comment-content">
+                                                    Shop bán đồ quá tuyệt vời
+                                                </div>
+                                            }
+                                        />
+
+                                       
+                                        <Comment 
+                                            author={<div className="comment-author">Bao Vi</div>}
+                                            avatar={<Avatar 
+                                                    src={Images.AVATAR_4}
+                                            />}
+                                            content={
+                                                <div className="comment-content">
+                                                    Dịch vụ quá tốt và nhân viên cực kì dễ thương
+                                                </div>
+                                            }
+                                        />  
+                                    </TabPane>
+                                    <TabPane
+                                        tab={
+
+                                                <span className="no-answer">
+                                                <CloseCircleFilled/>
+                                                No Answer
+                                                </span>
+                                            }
+                                        key="3"
+                                    >
+                                       
+                                            <Empty/>
+                                        
+                                    </TabPane>
+                                
+                               
+                                </Tabs>
+                            
+                            <div className="text-label">
+                                Questions? Get answers from customers.
+                            </div>
+                            <Form>
+                                <Form.Item  name="description"  rules={[{ required: true, message: 'Nhập câu hỏi đi nè' }]}>
+                                    <Input.TextArea placeholder="Chào bạn, bạn muốn hỏi gì về sản phẩm cũng như dịch vụ bên shop quần áo bên mình ạ" row={5}/>
+                                    {/* <Input/> */}
+                                </Form.Item>
+                            </Form>
+                            <div className="notification">
+                                
+                                   
+                                    {/* <Checkbox className="radio" >Nhận thông báo câu trả lời mới từ câu hỏi này</Checkbox>
+                                   
+                                   
+                                    <Button className="btn-checkedbox" type="primary">Ask question</Button> */}
+                                    <Checkbox classname="radio-button">Receive answers</Checkbox>
+                                    <Button className="btn-checkedBox" type="primary">Ask question</Button>
+                                
+                            </div>
+                            
+                           
+                        </div>
+                        
+                        </TabPane>
+                            
+                        <TabPane
+                            tab={
+                                    <span className="Comment">
+                                    <MessageTwoTone/>
+                                    Comment
+                                    </span>
+                            }
+                        key="3"
+                        >
+                        Tab 2
+                        </TabPane>
+
+                    </Tabs>,
                 </div>
             </div>
              <div className="right-side">

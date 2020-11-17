@@ -8,7 +8,7 @@
 .container .left-side{
     width: 55%;
     height: auto;
-    display: flex;
+    display: block;
     text-align: center;
     align-items: center;
 }
@@ -39,7 +39,7 @@
     height: auto;
     font-family: 'Fjalla One', sans-serif;
     border-bottom: 1px solid;
-    padding-top: 85px;
+    padding-top:3px;
     padding-bottom: 10px;
 
 }   
@@ -256,4 +256,118 @@
     font-family: 'Saira Semi Condensed', sans-serif;
     font-size: 18px;
     padding-bottom: 10px;
+}
+.container .left-side .left-bottom-side{
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+}
+.left-bottom-side .review{
+    width: 100%;
+    height: auto;
+    color: black;
+    font-family: 'Candal', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.left-bottom-side .question {
+    width: 100%;
+    height: auto;
+    color: black;
+    font-family: 'Candal', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.left-bottom-side .Comment{
+    width: 100%;
+    height: auto;
+    color: black;
+    font-family: 'Candal', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.sum-question{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.notification{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+/* .mix-check-button{
+    width: 100%;
+    height: auto;
+    display: flex;
+} */
+.text-label{
+    width: 100%;
+    height: auto;
+    text-align: start;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.all-question{
+    width: 100%;
+    height: auto;
+    text-align: start;
+    border-bottom: 2px solid black;
+    font-family: 'Bai Jamjuree', sans-serif;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+ .radio-button{
+    width: 70%;
+    height: auto;
+}
+ .btn-checkedBox{
+    width: 30%;
+    height: auto;
+    font-family: 'Bai Jamjuree', sans-serif;
+    background-color:burlywood;
+    font-size: 20px;
+}
+.recent-answer{
+    width: 100%;
+    height: auto;
+    font-family: 'Lateef', cursive;
+    font-size: 20px;
+    padding-top: 30px;
+    color: black;
+}
+.popular-answer{
+    width: 100%;
+    height: auto;
+    font-family: 'Lateef', cursive;
+    font-size: 20px;
+    padding-top: 30px;
+    color: black;
+}
+.no-answer{
+    width: 100%;
+    height: auto;
+    font-family: 'Lateef', cursive;
+    font-size: 20px;
+    padding-top: 30px;
+    color: black;
+}
+.comment-author{
+    width: 100%;
+    height: auto;
+    color: black;
+    font-family: 'Kurale', serif;
+    font-size: 20px;
+}
+.comment-content{
+    width: 100%;
+    height: auto;
+    color: black;
+    font-family: 'Kurale', serif;
+    font-size: 15px;
+    text-align: start;
 }

@@ -278,14 +278,22 @@
     font-size: 20px;
     text-align: center;
 }
-.left-bottom-side .Comment{
+.left-bottom-side .Comment-next{
     width: 100%;
     height: auto;
     color: black;
     font-family: 'Candal', sans-serif;
     font-size: 20px;
-    text-align: center;
+    
 }
+
+.Comment-next
+
+
+
+
+
+
 .sum-question{
     width: 100%;
     height: auto;
@@ -369,5 +377,60 @@
     color: black;
     font-family: 'Kurale', serif;
     font-size: 15px;
+    text-align: start;
+}
+.comment-inline{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.comment-inline .comment-first
+{
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+}
+.comment-first .commnet-img{
+    width: 30%;
+    height: auto;
+    border-radius: 75%;
+    text-align: start;
+    text-align: start;
+    margin-right: 500px;
+}
+.comment-first .comment-content{
+    width: 70%;
+    height: auto;
+}
+/* tile uploaded pictures */
+.boss-review{
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+}
+.boss-review .name-poster-review{
+    width: 100%;
+    height: auto;
+    text-align: start;
+}
+.name-poster-review{
+    width: 100%;
+    height: auto;
+    color: black;
+    font-family: 'Kurale', serif;
+    font-size: 20px;
+}
+.content-reivew{
+    width: 100%;
+    height: auto;
+    color: black;
+    font-family: 'Kurale', serif;
+    font-size: 15px;
+    text-align: start;
+}
+.rating-review{
+    width: 100%;
+    height: auto;
     text-align: start;
 }

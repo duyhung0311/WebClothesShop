@@ -1,20 +1,17 @@
-import React from 'react'
+import React , {useState,createElement} from 'react'
 import  './style.css'
 import Navbar from '../../../components/navbar'
 import { Images } from '../../../config/image'
-import {Select,Button,Collapse,Tabs,Input,Form,Checkbox,Comment,Avatar,Empty,Rate} from 'antd'
-import { HeartOutlined,StarFilled,QuestionOutlined,MessageTwoTone,ClockCircleOutlined ,CloseCircleFilled    } from '@ant-design/icons';
+import {Select,Button,Collapse,Tabs,Input,Form,Checkbox,Comment,Avatar,Empty,Tooltip,Rate} from 'antd'
+import { HeartOutlined,StarFilled,QuestionOutlined,MessageTwoTone,ClockCircleOutlined ,CloseCircleFilled,DislikeOutlined, LikeOutlined, DislikeFilled, LikeFilled  } from '@ant-design/icons';
+import moment from 'moment';
 
 function SingleProduct() {
     const { Panel } = Collapse;
     const { TabPane } = Tabs;
-    const renderTabBar = (props, DefaultTabBar) => (
-        <Sticky bottomOffset={80}>
-          {({ style }) => (
-            <DefaultTabBar {...props} className="site-custom-tab-bar" style={{ ...style }} />
-          )}
-        </Sticky>
-      );
+    
+   
+     
     return (
         <>
                         <Navbar/>
@@ -36,7 +33,46 @@ function SingleProduct() {
                                     </span>
                                 }
                             key="1"
+                            
                         >
+                            <div className="boss-review">
+                                <div className="name-poster-review">Tho Trung
+                                
+                                </div>
+                                <div className="rating-review">
+                                    <Rate disable defaultValue={2}/>
+                                </div>
+                                <div className="content-reivew">
+                                Minh nghĩ đừng lấy hình của các anh ra bừa bãi như vậy
+                                </div>
+                               
+                            </div>
+
+                            <div className="boss-review">
+                                <div className="name-poster-review">Nhan Hoang
+                                
+                                </div>
+                                <div className="rating-review">
+                                    <Rate disable defaultValue={3}/>
+                                </div>
+                                <div className="content-reivew">
+                                Shop bán đồ rất chất lượng
+                                </div>
+                               
+                            </div>
+
+                            <div className="boss-review">
+                                <div className="name-poster-review">Hieu Tran
+                                
+                                </div>
+                                <div className="rating-review">
+                                    <Rate disable defaultValue={4.5}/>
+                                </div>
+                                <div className="content-reivew">
+                                Shop bán đồ chất lường và rất siêu to khổng lồ
+                                </div>
+                               
+                            </div>
                         
                         </TabPane>
 
@@ -172,14 +208,59 @@ function SingleProduct() {
                             
                         <TabPane
                             tab={
-                                    <span className="Comment">
+                                    <span className="Comment-next">
                                     <MessageTwoTone/>
                                     Comment
                                     </span>
                             }
                         key="3"
                         >
-                        Tab 2
+                            {/* Give comment */}
+                            <Comment
+                                author={<div className="comment-author">Quoc Viet Pham</div>}
+                                avatar={<Avatar
+                                    src={Images.AVATAR_1}
+                                    
+                                />}
+                                content={
+                                    <div className="comment-content">Ok. Quá hay luôn</div>
+                                }
+                                datetime={
+                                    <Tooltip title={moment().format('YYYY-MM-DD HH:mm:ss')}>
+                                      <span>{moment().fromNow()}</span>
+                                    </Tooltip>
+                                  }
+                            />
+                             <Comment
+                                author={<div className="comment-author">Quoc Viet Pham</div>}
+                                avatar={<Avatar
+                                    src={Images.AVATAR_1}
+                                    
+                                />}
+                                content={
+                                    <div className="comment-content">Ok. Quá hay luôn</div>
+                                }
+                                datetime={
+                                    <Tooltip title={moment().format('YYYY-MM-DD HH:mm:ss')}>
+                                      <span>{moment().fromNow()}</span>
+                                    </Tooltip>
+                                  }
+                            />
+                             <Comment
+                                author={<div className="comment-author">Quoc Viet Pham</div>}
+                                avatar={<Avatar
+                                    src={Images.AVATAR_1}
+                                    
+                                />}
+                                content={
+                                    <div className="comment-content">Ok. Quá hay luôn</div>
+                                }
+                                datetime={
+                                    <Tooltip title={moment().format('YYYY-MM-DD HH:mm:ss')}>
+                                      <span>{moment().fromNow()}</span>
+                                    </Tooltip>
+                                  }
+                            />
                         </TabPane>
 
                     </Tabs>,

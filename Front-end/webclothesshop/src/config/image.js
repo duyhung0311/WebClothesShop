@@ -12,4 +12,9 @@ export const Images={
     AVATAR_2:IMAGE_URL +"/static/img/avatar_2.jpg",
     AVATAR_3:IMAGE_URL +"/static/img/avatar_3.jpg",
     AVATAR_4:IMAGE_URL +"/static/img/avatar_4.jpg",
+    CART_IMG_1:IMAGE_URL+"/static/img/cart_image_1.jpg",
+    CART_IMG_2:IMAGE_URL+"/static/img/cart_image_2.jpg",
+    CART_IMG_3:IMAGE_URL+"/static/img/cart_image_3.jpg",
+    CART_IMG_4:IMAGE_URL+"/static/img/cart_image_4.jpg",
+
 };

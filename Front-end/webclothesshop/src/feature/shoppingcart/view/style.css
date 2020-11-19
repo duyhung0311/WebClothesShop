@@ -1,0 +1,335 @@
+.outline-left{
+    width: 85%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.outline-left .show-item{
+    width: 85%;
+    height: 90%;
+}
+.outline-right{
+    width: 35%;
+    height: auto;
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+}
+.outline-right .cart{
+    width: 95%;
+    height: 475px;
+    background-color:#f1f1f1;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+.cart .text-discount{
+    width: 100;
+    height: auto;
+    color: black;
+    font-size: 20px;
+    padding-top: 10px;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+.cart .title-cart{
+    width: 100%;
+    height: auto;
+    font-family: 'Balsamiq Sans', cursive;
+    color: black;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+.cart .mix-input-button{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-top:10px ;
+    border-bottom: 2px dashed darkgrey;
+}
+.mix-input-button .mix-button{
+    background-color: orangered;
+    font-size: 20px;
+    width: 100%;
+    height: auto;
+    font-family: 'Barlow', sans-serif;
+
+    color:#f1f1f1;
+}
+.cart .mix-cart-discount{
+    width: 100%;
+    height: auto;
+    display: flex;
+    border-bottom: 2px dashed darkgrey;
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+.mix-cart-discount .mix-title{
+    width: 50%;
+    height: auto;
+    text-align: start;
+}
+.mix-title .content-cart{
+    width: 100%;
+    height: auto;
+    text-align: start;
+    font-size: 15px;
+    padding-bottom:5px;
+    padding-top: 5px;
+    font-family: 'Alegreya Sans', sans-serif;
+
+}
+.mix-title .content-discount{
+    width: 100%;
+    height: auto;
+    text-align: start;
+    font-size: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.mix-cart-discount .mix-price{
+    width: 50%;
+    height: auto;
+    text-align: start;
+}
+.mix-price .price-cart{
+    width: 100%;
+    height: auto;
+    text-align:end;
+    font-size: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-family: 'Hind Guntur', sans-serif;
+    
+}
+.mix-price .price-discount{
+    width: 100%;
+    height: auto;
+    text-align: start;
+    font-size: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: end;
+    font-family: 'Hind Guntur', sans-serif;
+}
+.cart .label-total{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.label-total .label-left{
+    width: 50%;
+    height: auto;
+    text-align: start;
+    font-size:18px;
+    color:black;
+    font-family: 'Paytone One', sans-serif;
+}
+.label-total .label-right{
+    width: 50%;
+    height: auto;
+    text-align: end;
+    font-size:16px;
+    color:black;
+    font-family: 'Paytone One', sans-serif;
+}
+.cart .btn-payment{
+    width: 100%;
+    height: 70px;
+    color: #f1f1f1;
+    background-color: orangered;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Economica', sans-serif;
+}
+.outline-left .show-item .first-title{
+    width: 100%;
+    height: auto;
+    color: black;
+    border-bottom: 2px black solid;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    font-family: 'Mitr', sans-serif;
+
+}
+.outline-left .show-item .slider-itembonus{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.slider-itembonus .in-slider-first{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content:start;
+}
+.in-slider-first .image{
+    width: 145px;
+    height: auto;
+    padding-top: 15px;  
+    padding-left: 15px;
+}
+
+.in-slider-first .content{
+    width: 100%;
+    height: auto;
+    padding-top: 15px; 
+    text-align: start; 
+    padding-left: 20px;
+
+}
+.content .description-product{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content:start;
+    
+    color: black;
+    font-weight: bolder;
+    font-family: 'Alata', sans-serif;
+    font-size: 18px;
+
+
+}
+.content .description-price{
+    width: 100%;
+    height: auto;
+    justify-content:start;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-family: 'Commissioner', sans-serif;
+    color: orangered;
+    font-weight: bold;
+}
+.content .btn-description{
+    width: 100px;
+    height: auto;
+    background-color: orangered;
+    font-family: 'Lateef', cursive;
+    font-size: 20px;
+}
+.content-second .btn-description-second{
+    width: 100px;
+    height: auto;
+    background-color: orangered;
+    font-family: 'Lateef', cursive;
+    font-size: 20px;
+}
+.slider-itembonus .in-slider-second{
+    width: 50%;
+    height: auto;
+    display:flex ;
+    
+}
+.in-slider-second .image-second{
+    width: 145px;
+    height: auto;
+    padding-top: 15px;  
+    padding-left: 15px;
+}
+.in-slider-second .content-second{
+    width: 100%;
+    height: auto;
+    padding-top: 15px;  
+    padding-left: 20px;
+
+}
+.content-second .description-product-second{
+    width: 100%;
+    height: auto;
+    text-align: start;
+    font-weight: bolder;
+    font-family: 'Alata', sans-serif;
+    font-size: 18px;
+}
+.content-second .description-price-second{
+    width: 100%;
+    height: auto;
+    justify-content:start;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-family: 'Commissioner', sans-serif;
+    color: orangered;
+    font-weight: bold;
+}
+.show-item .content-cart-left{
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    border-bottom: 2px solid black;
+    /* font-family: 'Lalezar', cursive; */
+    font-family: 'Mitr', sans-serif;
+    padding-bottom: 10px;
+
+    font-size: 20px;
+}
+.show-item .table{
+    width: 100%;
+    height: auto;
+}
+.item-firstcontent{
+   
+   width: 100%;
+   height: auto;
+   font-family: 'Coustard', serif;
+    font-size: 12px;
+    /* padding-bottom: 120px; */
+
+}
+.item-secondcontent{
+    width: 100%;
+    height: auto;
+    font-family: 'Cormorant Infant', serif;
+    font-weight: bolder;
+    padding-bottom: 15px;
+
+}
+.show-item .title-content{
+    width: 100%;
+    height: auto;
+    color: darkgrey;
+    font-family: 'Raleway', sans-serif;
+    border-bottom: 2px solid ;
+    padding-bottom: 10px;
+}
+.title-content .table-content{
+    width: 100%;
+    height: auto;
+}
+ .image-firstcolumn-intable{
+    width: 100%;
+    height: auto;
+    justify-content: start;
+}
+.name-secondcolumn-intable{
+    width: 100%;
+    height: auto;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+    justify-content: start;
+
+}
+.price-fourthcolumn-intable{
+    width: 100px;
+    height: auto;
+    font-size: 15px;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+.button-fiftthcol-intable{
+    width: 100px;
+    height: 40px;
+    font-size:20px;
+    font-family: 'Titillium Web', sans-serif;
+    background-color:gray;
+    text-align: center;
+
+}

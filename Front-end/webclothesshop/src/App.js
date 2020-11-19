@@ -4,6 +4,7 @@ import Login from './feature/login/index';
 import Homepage from './feature/homepage/index';
 import Product from './feature/product/view/index'
 import SingleProduct from './feature/singleProduct/view';
+import ShoppingCart from './feature/shoppingcart/view';
  './feature/singleProduct/view/index'
  import { BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
 function App() {
@@ -19,7 +20,7 @@ function App() {
             <Link to="/login" ></Link>
             <Link to="/singleproduct"></Link>
             <Link to="/product"></Link>
-
+            <Link to="/shoppingcart"></Link>
             <Switch>
         <Route path="/home" >
           <Homepage/>
@@ -32,6 +33,9 @@ function App() {
         </Route>
         <Route path="/singleproduct">
           <SingleProduct/>
+        </Route>
+        <Route path="/shoppingcart">
+          <ShoppingCart/>
         </Route>
       </Switch>
       </div>

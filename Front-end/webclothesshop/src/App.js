@@ -22,7 +22,7 @@ function App() {
             <Link to="/product"></Link>
             <Link to="/shoppingcart"></Link>
             <Switch>
-        <Route path="/home" >
+        <Route path="/" exact={true} >
           <Homepage/>
         </Route>
         <Route path="/login" >

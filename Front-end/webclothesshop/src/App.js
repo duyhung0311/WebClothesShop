@@ -5,6 +5,7 @@ import Homepage from './feature/homepage/index';
 import Product from './feature/product/view/index'
 import SingleProduct from './feature/singleProduct/view';
 import ShoppingCart from './feature/shoppingcart/view';
+import Footer from './components/footer';
  './feature/singleProduct/view/index'
  import { BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
 function App() {
@@ -21,6 +22,7 @@ function App() {
             <Link to="/singleproduct"></Link>
             <Link to="/product"></Link>
             <Link to="/shoppingcart"></Link>
+            {/* <Link to="/footer"/> */}
             <Switch>
         <Route path="/" exact={true} >
           <Homepage/>
@@ -37,6 +39,9 @@ function App() {
         <Route path="/shoppingcart">
           <ShoppingCart/>
         </Route>
+        {/* <Route path="/footer">
+          <Footer/>
+        </Route> */}
       </Switch>
       </div>
 

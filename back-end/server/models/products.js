@@ -5,6 +5,10 @@ var UserSchema = new mongoose.Schema({
     type: Text,
     required: true,
   },
+  picture: {
+    type: Image,
+    required: true,
+  },
   price: {
     type: Number,
     required: true,

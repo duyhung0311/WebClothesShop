@@ -25,6 +25,10 @@ var UserSchema = new mongoose.Schema({
   { 
       type: mongoose.Schema.Types.ObjectId, 
       ref: 'Role'
+  },
+  userAddress: {
+    type: Text,
+    required: true,
   }
 });
 var User = mongoose.model('users', UserSchema);

@@ -16,5 +16,9 @@ export const Images={
     CART_IMG_2:IMAGE_URL+"/static/img/cart_image_2.jpg",
     CART_IMG_3:IMAGE_URL+"/static/img/cart_image_3.jpg",
     CART_IMG_4:IMAGE_URL+"/static/img/cart_image_4.jpg",
-
+    LOGO:IMAGE_URL+"/static/img/logo.jpg",
+    PRO_HOME_1:IMAGE_URL+"/static/img/pro_home_1.jpg",
+    PRO_HOME_2:IMAGE_URL+"/static/img/pro_home_2.jpg",
+    PRO_HOME_3:IMAGE_URL+"/static/img/pro_home_3.jpg",
+    PRO_HOME_4:IMAGE_URL+"/static/img/pro_home_4.jpg",
 };

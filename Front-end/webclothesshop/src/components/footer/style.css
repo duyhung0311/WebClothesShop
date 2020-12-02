@@ -1,0 +1,151 @@
+.row-1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    
+}
+.logo-colfirst{
+    width: 100%;
+    height: 100%;
+
+}
+.btn-colfirst{
+    width: 80%;
+    height: auto;
+    margin-top: 20px;
+    font-family: 'Antic Slab', serif;
+    background-color: orangered;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.col-first{
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    
+}
+.col-second{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 70px;
+}
+.policy-cover{
+    width: 100%;
+    height: 100%;
+    display: block;
+
+}
+.content-first{
+    width:60%;
+    height: 100%;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px; 
+    padding-top: 10px;
+    font-weight: bold 2px;   
+    border-bottom: 2px solid  gray;
+    padding-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+}
+.content-second{
+    width: 100%;
+    height: 100%;
+    font-size: 15px; 
+    text-align: start;
+    justify-content: center;
+    padding-top: 10px;
+    font-family: 'PT Sans Narrow', sans-serif;
+
+}
+.content-third{
+    width: 100%;
+    height: 100%;
+    font-size: 15px; 
+    text-align: start;
+    justify-content: center;
+    padding-top: 10px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.content-fourth{
+    width: 100%;
+    height: 100%;
+    font-size: 15px; 
+    text-align: start;
+    justify-content: center;
+    padding-top: 10px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.content-fifth{
+    width: 100%;
+    height: 100%;
+    font-size: 15px; 
+    text-align: start;
+    justify-content: center;
+    padding-top: 10px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.content-sixth{
+    width: 100%;
+    height: 100%;
+    font-size: 15px; 
+    text-align: start;
+    justify-content: center;
+    padding-top: 10px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.col-third{
+    width: 100%;
+    height: 100%;
+    margin-top: 90px;
+}
+.address-cover{
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding-top: 20px;
+}
+.address{
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    padding-right: 20px;
+}
+.phone{
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+.social-media-account{
+    width: 100%;
+    height: 100%;
+    padding-top: 15px;
+    display: flex;
+}
+.social-media-account .ins {
+    width: 10%;
+    height: 100%;
+}
+.social-media-account .google{
+    width: 10%;
+    height: 100%;
+}
+.social-media-account .face{
+    width: 10%;
+    height: 100%;
+}
+.social-media-account .skype {
+    width: 10%;
+    height: 100%;
+}
+.social-media-account .youtube {
+    width: 10%;
+    height: 100%;
+}

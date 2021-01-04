@@ -8,6 +8,7 @@
     "@testing-library/react": "^11.1.2",
     "@testing-library/user-event": "^12.2.2",
     "antd": "^4.8.2",
+    "axios": "^0.21.1",
     "google-map-react": "^2.1.9",
     "google-maps-react": "^2.0.6",
     "moment": "^2.29.1",

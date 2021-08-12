@@ -1,1 +1,12 @@
 # WebClothesShop
+![Screenshot (77)](https://user-images.githubusercontent.com/56124429/129196308-ad7f88cf-385e-447e-99ef-42b1855aee42.png)
+![Screenshot (78)](https://user-images.githubusercontent.com/56124429/129196318-136fedd0-60d0-4dc7-a4c8-b1c14dc46612.png)
+![Screenshot (79)](https://user-images.githubusercontent.com/56124429/129196322-a07197be-573f-47e2-a204-28f8c91301ca.png)
+![Screenshot (80)](https://user-images.githubusercontent.com/56124429/129196324-fed5e818-3f1e-4083-b464-543afab940cc.png)
+![Screenshot (81)](https://user-images.githubusercontent.com/56124429/129196330-8daa9079-a99b-43ca-940a-dae66c6128a6.png)
+![Screenshot (82)](https://user-images.githubusercontent.com/56124429/129196280-c2b0c228-6943-4d4f-9cb0-fab3b067ce03.png)
+![Screenshot (83)](https://user-images.githubusercontent.com/56124429/129196292-55511cfa-4638-466e-9b33-4b9b2d4cfe23.png)
+![Screenshot (84)](https://user-images.githubusercontent.com/56124429/129196295-744cf733-df5c-4ef4-9b87-f58fbc84cf43.png)
+![Screenshot (85)](https://user-images.githubusercontent.com/56124429/129196299-37998ed5-733f-419f-8554-8bfd53e1e5b0.png)
+![Screenshot (86)](https://user-images.githubusercontent.com/56124429/129196301-f719c097-4f5c-4971-ab71-635642f2602c.png)
+![Screenshot (87)](https://user-images.githubusercontent.com/56124429/129196304-7ba8d9b5-e167-41d0-b366-9e8a876968e5.png)
